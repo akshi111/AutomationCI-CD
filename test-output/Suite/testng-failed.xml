@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Code10_IRetryAnalyzerToRerunTheFlakyFailedSeleniumTestsInFramework(failed)">
+    <classes>
+      <class name="End_To_End_SeleniumFramework.Code10_IRetryAnalyzerToRerunTheFlakyFailedSeleniumTestsInFramework">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logInPage"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- End_To_End_SeleniumFramework.Code10_IRetryAnalyzerToRerunTheFlakyFailedSeleniumTestsInFramework -->
+    </classes>
+  </test> <!-- Code10_IRetryAnalyzerToRerunTheFlakyFailedSeleniumTestsInFramework(failed) -->
+</suite> <!-- Failed suite [Suite] -->

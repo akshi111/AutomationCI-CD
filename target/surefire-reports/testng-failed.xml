@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Code3ErrorValidations1(failed)" verbose="0">
+    <classes>
+      <class name="End_To_End_SeleniumFramework.Code3ErrorValidations1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="productCatalog"/>
+        </methods>
+      </class> <!-- End_To_End_SeleniumFramework.Code3ErrorValidations1 -->
+    </classes>
+  </test> <!-- Code3ErrorValidations1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
